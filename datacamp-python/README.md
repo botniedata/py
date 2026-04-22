@@ -2,6 +2,7 @@
 2. Data Types - Done 20-April 2026
 3. Conditional Statements and Operators Done 22-April 2026
 
+## Introduction to Python for Developers
 
 ### Define quantity
 ```
@@ -107,3 +108,5 @@ not - Evaluate if a value is not in a database
 ```
 list.append()
 ```
+
+## Intermediate to Python for Developers
