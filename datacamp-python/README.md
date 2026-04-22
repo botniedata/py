@@ -13,7 +13,7 @@ quantity = 10
 ingredient_name = 'pasta'
 ```
 
-#### Double quotes
+### Double quotes
 ```
 ingredient_name = "pasta"
 ```
@@ -31,11 +31,13 @@ ingredients[0]
 ```
 
 ### Create a dictionary
-```recipe_dict = {"pasta": 500, "tomatoes": 400, "garlic": 15, "basil": 20, "olive Oil": 30, "salt": 5}
+```
+recipe_dict = {"pasta": 500, "tomatoes": 400, "garlic": 15, "basil": 20, "olive Oil": 30, "salt": 5}
 ```
 
 ### Create a set 
-```ingredient_set = {"pasta", "tomatoes", "pasta", "basil", "garlic", "olive oil", "salt"}
+```
+ingredient_set = {"pasta", "tomatoes", "pasta", "basil", "garlic", "olive oil", "salt"}
 ```
 
 ### Create a  tuple - immitable
