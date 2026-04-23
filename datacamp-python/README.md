@@ -106,3 +106,8 @@ list.append()
 ```
 
 ## Intermediate to Python for Developers
+### Python Ecosystem
+### Built-in functions:
+```print()```, ```help()```, ```type()```
+```max()```, ```min()```, ```sum()```
+```len()```, ```round()```, ```sorted()```
