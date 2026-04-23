@@ -118,7 +118,7 @@ list.append()
 ### Packages
 `pandas`
 
-#### Customs Function
+### Customs Function
 ```
 # Create a custom function
 def average(values):
@@ -179,3 +179,17 @@ def average(**kwargs):
     rounded_average = round(average_value, 2)
     return rounded_average
 ```
+
+### Lambda and map()
+```
+name = ["john", "sally", "leah"]
+
+# Apply a lambda function inside map()
+capitalize = map(lambda x: x.capitalized(), names)
+
+# Convert to a list
+print(list(capitalize))
+```
+
+### Error-handling
+`try:`, `except`, `raise`
