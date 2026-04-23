@@ -20,7 +20,6 @@ sales = {
     ]
         }
 
-
 # Import pandas as pd
 import pandas as pd
 
