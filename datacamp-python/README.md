@@ -107,7 +107,75 @@ list.append()
 
 ## Intermediate to Python for Developers
 ### Python Ecosystem
-### Built-in functions:
-```print()```, ```help()```, ```type()```
-```max()```, ```min()```, ```sum()```
-```len()```, ```round()```, ```sorted()```
+### Built-in functions
+`print()`, `help()`, `type()`
+`max()`, `min()`, `sum()`
+`len()`, `round()`, `sorted()`
+
+### Modules
+`string`, `os`
+
+### Packages
+`pandas`
+
+#### Customs Function
+```
+# Create a custom function
+def average(values):
+    # Calculate the average
+    average_value = sum(values) / len(values)
+
+    # Round the result
+    rounded_average = round(average_values, 2)
+
+    # Return rounded_average as an output
+    return rounded_average
+```
+
+### Enhanced Custom Function with default arguements
+```
+# Create a custom function
+def average(values, rounded=False):
+    # Round average to two decimal places if rounded is True
+    if rounded == True:
+        average_value = sum(values) / len(values)
+        rounded_average = round(average_value, 2)
+        return rounded_average
+    # Otherwise, don't round
+    else:
+        average_value = sum(values) / len(values)
+        return average_value
+```
+
+### Docstrings
+```
+def average(values):
+    """
+    Fine the mean in a sequence of values and round to two decimal places.
+
+    Args:
+        values (list): A lit of numeric values
+
+    Returns:
+        rounded_average (float): The mean of values, rounded to two decimal places
+    """
+
+average_values = sum(values) / len(values)
+rounded_average = round(average_value, 2)
+return rounded_average
+```
+
+### Arbritrary Positional and Arbritrary Keyword Arguements
+```
+# Use arbritrary positional arguements
+def average(*args):
+    average_value = sum(args) / len(args)
+    rounded_average = round(average_value, 2)
+    return rounded_average
+
+# Use arbritary keyword arguements
+def average(**kwargs):
+    average_value = sum(kwargs.values()) / len(kwargs.values())
+    rounded_average = round(average_value, 2)
+    return rounded_average
+```
