@@ -1,0 +1,11 @@
+# Integers
+- Exceptionally large values
+- When the result will be Integers
+
+# Float
+- Scientific Notation
+- Where approxiamation is good enough (most programs)
+
+# Decimal
+- Currency
+- Exacting precision required
